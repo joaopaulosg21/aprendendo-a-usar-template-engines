@@ -1,0 +1,4 @@
+node_modules
+dist
+.env
+views/css/bootstrap-5.1.3-dist

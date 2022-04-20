@@ -1,0 +1,15 @@
+<%- include('./index') %>
+<div class="d-flex justify-content-center">
+    <form action="/book/new" method="post">
+        <div class="mb-3">
+          <label for="Title" class="form-label">Titulo</label>
+          <input type="text" class="form-control" id="Title" name="title">
+        </div>
+        <div class="mb-3">
+          <label for="type" class="form-label">Tipo</label>
+          <input type="text" class="form-control" id="type" name="type">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</div>
+
